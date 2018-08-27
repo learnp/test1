@@ -66,7 +66,7 @@ for x in range(1,11):
         print(x)
    
 '''
-
+'''
 
 from collections import OrderedDict
 thisdict =	{
@@ -78,7 +78,7 @@ thisdict =	{
 }
 
 print(OrderedDict(thisdict))
-
+'''
 
 
 
@@ -150,7 +150,11 @@ print(b)
 '''
 
         
-    
+hungry=input("eat something")
+if hungry=="yes":
+    print("eat samosa")
+else:
+    print("do homw work")
         
         
         
